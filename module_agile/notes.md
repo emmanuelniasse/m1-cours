@@ -85,3 +85,8 @@ Qui ordonne le backlog ? Le PO ordonne le backlog comme il le souhaite
 Les sprint backlog sont organisés en fonction du backlog trié
 
 La definition of done est
+
+---
+
+Scrum :
+https://scrumguides.org/scrum-guide.html#product-backlog
