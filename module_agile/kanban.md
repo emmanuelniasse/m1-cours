@@ -1,0 +1,4 @@
+# Kanban
+
+Japon
+Toyota
