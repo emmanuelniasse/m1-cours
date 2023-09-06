@@ -1,26 +1,44 @@
-## Big data
+# BIG DATA
 
-Qu'est ce que la BIG DATA ?
+## Qu'est ce que la BIG DATA ?
 
--   Les composantes de la big data sont les 4 V
+### Les composantes de la big data sont les 4 VÉRITÉS :
 
-    -   Volume de l'information : quantité de données générées, collectées et stockées
+-   **_ Volume de l'information _** :
+    Quantité de données générées, collectées et stockées.
 
-    -   Vélocité / Vitesse : fait référence à la vitesse de traitement de l'information en temps réel.
-        Avec l'avènement des capteurs, des réseaux sociaux, des appareils connectés, etc., les données sont produites à un rythme effréné et doivent souvent être analysées en temps réel ou presque.
+-   **_ Vélocité / Vitesse _** :
+    Vitesse de traitement de l'information en temps réel.
+    Le temps réel est un **_ temps donné _** (le traitement est réalisé en dans un temps alloué précis, ni plus ni moins !).
 
-    -   Variété : La variété concerne la diversité des types de données.
-        Les données sont hétérogènes, les données peuvent être structurées (comme les bases de données traditionnelles), semi-structurées (comme les fichiers XML ou JSON) ou non structurées (comme les textes, les images, les vidéos, etc.). La big data doit être capable de gérer cette variété de formats de données.
+    L'avalanche de données produites par les capteurs, les réseaux sociaux, les appareils connectés, etc.. doivent souvent être analysées en temps réel.
 
-    -   Valeur de l'information, son importance, sa véracité, son profit, est-ce que la valeur est pertinente et correspond au besoin de l'utilisateur
+-   **_ Variété _** :
+    La variété concerne la diversité des types de données.
+
+    Les données sont hétérogènes, elles peuvent être de nature :
+
+    -   Structurées (ex: bases de données traditionnelles)
+    -   Semi-structurées (ex: les fichiers XML ou JSON)
+    -   Non structurées (ex: les textes, les images, les vidéos...).
+
+    La big data doit être capable de gérer cette variété de formats de données.
+
+-   **_ Valeur _**
+    L'importance de l'information, sa véracité, son profit, est-ce que la valeur est pertinente et correspond au besoin de l'utilisateur
 
 ---
 
--   Transformation et préparation des données
-    Analyser les données
-    Gestion des meta données
-    Sécurité
-    Visualisation et présentation
-    Administration et gestion
+## Les architectures BIG DATA
 
-    tout ça avec Apache Spark
+Une architecture Big Data est conçue pour gérer le traitement et l’analyse de données trop volumineuses ou complexes pour les systèmes de base de données traditionnels.
+
+**_ Les architectures optimales _** :
+
+-   Batch, le traitement par lot
+-   Stream, le traitement de flux
+-   Lambda, mix des deux
+
+La BIG DATA "travail" en mode distribué / décentralisé (les informations ne sont pas stockées dans les mêmes bases de données), avec un système de réplication sur d'autre DB.
+
+Ce mode permet de récupérer les datas en cas de crash d'une des DB.
