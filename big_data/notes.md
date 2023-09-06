@@ -4,16 +4,16 @@
 
 ### Les composantes de la big data sont les 4 VÉRITÉS :
 
--   **_ Volume de l'information _** :
+-   **Volume de l'information** :
     Quantité de données générées, collectées et stockées.
 
--   **_ Vélocité / Vitesse _** :
+-   **Vélocité / Vitesse** :
     Vitesse de traitement de l'information en temps réel.
-    Le temps réel est un **_ temps donné _** (le traitement est réalisé en dans un temps alloué précis, ni plus ni moins !).
+    Le temps réel est un **temps donné**(le traitement est réalisé en dans un temps alloué précis, ni plus ni moins !).
 
     L'avalanche de données produites par les capteurs, les réseaux sociaux, les appareils connectés, etc.. doivent souvent être analysées en temps réel.
 
--   **_ Variété _** :
+-   **Variété** :
     La variété concerne la diversité des types de données.
 
     Les données sont hétérogènes, elles peuvent être de nature :
@@ -24,7 +24,7 @@
 
     La big data doit être capable de gérer cette variété de formats de données.
 
--   **_ Valeur _**
+-   **Valeur**
     L'importance de l'information, sa véracité, son profit, est-ce que la valeur est pertinente et correspond au besoin de l'utilisateur
 
 ---
@@ -33,7 +33,7 @@
 
 Une architecture Big Data est conçue pour gérer le traitement et l’analyse de données trop volumineuses ou complexes pour les systèmes de base de données traditionnels.
 
-**_ Les architectures optimales _** :
+**Les architectures optimales** :
 
 -   Batch, le traitement par lot
 -   Stream, le traitement de flux
