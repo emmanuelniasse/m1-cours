@@ -6,17 +6,17 @@ Nous découvrons de meilleures façons de développer des solutions,par notre pr
 
 Grâce à ce travail, nous en sommes venus à valoriser :
 
-Les individus et leurs interactions, de préférence aux processus et aux outils,
-Des solutions opérationnelles, de préférence à une documentation exhaustive,
-La collaboration avec les clients, de préférence aux négociations contractuelles,
-La réponse au changement, de préférence au respect d’un plan.
+-   Les individus et leurs interactions, de préférence aux processus et aux outils,
+-   Des solutions opérationnelles, de préférence à une documentation exhaustive,
+-   La collaboration avec les clients, de préférence aux négociations contractuelles,
+-   La réponse au changement, de préférence au respect d’un plan.
 
 Précisément, même si les éléments à droite ont de la valeur,
 nous reconnaissons davantage de valeur dans les éléments à gauche.
 
 ---
 
-**_ Extra _**
+**Extra**
 
 -   La réunionite :
     Maladie qui consiste à faire des réunions très souvent, pour rien, sans prise de décisions.
@@ -48,6 +48,8 @@ nous reconnaissons davantage de valeur dans les éléments à gauche.
 
 ---
 
+## À savoir
+
 -   Les sprints doivent avoir la même durée pour garder une régularité
 -   Le Daily n'est pas dirigé par le Scrum master
 -   Durant le sprint review, le plus important n'est pas la démonstration mais les feedbacks
@@ -59,7 +61,7 @@ nous reconnaissons davantage de valeur dans les éléments à gauche.
 -   Un `increment` doit être prêt à mettre en prod
 -   La `Definition of Done` peut changer
 
--   Les 3 artefacts :
+-   **Les 3 artefacts** :
     -   Product backlog
         Engagement : Product goal
     -   Sprint backlog
@@ -69,7 +71,7 @@ nous reconnaissons davantage de valeur dans les éléments à gauche.
 
 ---
 
-Daily :
+**Daily** :
 Par les dev pour les dev
 15 min max
 Ce qu'on va faire de la journée
@@ -78,15 +80,14 @@ On ne doit passer que 10% de notre temps / mois à faire la mise à jour du back
 
 ---
 
-Artefacts
-
+**Artefacts**
 Qui ordonne le backlog ? Le PO ordonne le backlog comme il le souhaite
 
 Les sprint backlog sont organisés en fonction du backlog trié
 
-La definition of done est
+La definition of done
 
 ---
 
-Scrum :
+**Scrum** :
 https://scrumguides.org/scrum-guide.html#product-backlog
