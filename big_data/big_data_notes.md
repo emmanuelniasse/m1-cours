@@ -1,5 +1,15 @@
 # BIG DATA
 
+---
+
+## Avant vendredi 08/09/2023 :
+
+-   Télécharger Apache Spark
+-   Faire un petit projet pour voir comment ça fonctionne
+-   Envoyer le projet au prof
+
+---
+
 ## Qu'est ce que la BIG DATA ?
 
 ### Les composantes de la big data sont les 4 VÉRITÉS :
@@ -42,3 +52,20 @@ Une architecture Big Data est conçue pour gérer le traitement et l’analyse d
 La BIG DATA "travail" en mode distribué / décentralisé (les informations ne sont pas stockées dans les mêmes bases de données), avec un système de réplication sur d'autre DB.
 
 Ce mode permet de récupérer les datas en cas de crash d'une des DB.
+
+---
+
+## Les frameworks populaires utilisés pour la BIG DATA
+
+-   Apache Hadoop
+    Hadoop est principalement conçu pour le traitement en mode Batch.
+    Il est utilisé depuis plus longtemps, c'est le premier à avoir été découvert.
+
+-   Apache Spark
+    Spark lui, traite les données en temps reel ET mode batch
+    Il est plus rapide que Hadoop en raison de son traitement en mémoire
+
+## Les RDD (Resilien Distributed Dataset)
+
+Le RDD définit la structure de stockage des données
+Voir + sur internet psq j'ai rien compris
