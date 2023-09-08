@@ -69,7 +69,7 @@ Ce mode permet de récupérer les datas en cas de crash d'une des DB.
 **_ MapReduce : _**
 
 -   Permet de créer des applications qui s'éxecute en parallèle et traiter des grands volumes de données stockées sur les clusters
--   Comporte les transformations et actions
+-   Comporte les transformations et actions (map(), filter() ...)
 
 **_ Yarn HADOP _**
 
@@ -82,7 +82,7 @@ Ce mode permet de récupérer les datas en cas de crash d'une des DB.
 -   Le RDD définit la structure de stockage des données
 -   C'est une distribution IMMUABLE
 -   Cela permet de restituer des données perdues (car c'est un système distribué)
--   Transformation et actions sur les données
+-   Transformation et actions sur les données (map(), filter() ...)
 
 ---
 
