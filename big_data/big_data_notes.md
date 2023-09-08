@@ -51,11 +51,12 @@ Ce mode permet de récupérer les datas en cas de crash d'une des DB.
 
 -   Hadoop est principalement conçu pour le traitement en mode Batch.
 -   Il est utilisé depuis plus longtemps, c'est le premier à avoir été découvert.
+-   Consomme + de temps et de resources que SPARK en raison de son **_traitement en lot_**
 
 ### Apache Spark
 
 -   Spark lui, traite les données en temps reel ET mode batch
--   Il est plus rapide que Hadoop en raison de son traitement en mémoire
+-   Il est plus rapide que Hadoop en raison de son **_traitement en mémoire_**
 
 ---
 
@@ -67,15 +68,27 @@ Ce mode permet de récupérer les datas en cas de crash d'une des DB.
 -   C'est une distribution IMMUABLE
 -   Cela permet de restituer des données perdues (car c'est un système distribué)
 
-### HDFS (Hadoop Distributed Files System)
+---
+
+## Fonctionnement de HADOP
+
+**_ HDFS (Hadoop Distributed Files System) _**
 
 -   Permet de faire évoluer un cluster en plusieurs pour les traiter plus facilement
 
-### MapReduce :
+**_ MapReduce : _**
 
 -   Permet de créer des applications qui s'éxecute en parallèle et traiter des grands volumes de données stockées sur les clusters
 
-### Datawarehouse
+**_ Yarn _**
+
+-   Gestionnaire de package
+
+---
+
+## Datawarehouse
+
+### Qu'est ce qu'une Datawarehouse ?
 
 -   Une **Datawarehouse** est une base de données "secondaire" **CENTRALISÉE** avec comme tables des données orientées par **sujet**.
 -   Contient par exemple, les tables : `clients_reguliers`, `clients_etrangers`
