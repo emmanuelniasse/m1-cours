@@ -59,6 +59,8 @@ Ce mode permet de récupérer les datas en cas de crash d'une des DB.
 
 ---
 
+## Définitions
+
 ### Les RDD (Resilient Distributed Dataset)
 
 -   Le RDD définit la structure de stockage des données
