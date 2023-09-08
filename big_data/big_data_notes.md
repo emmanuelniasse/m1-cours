@@ -67,10 +67,6 @@ Ce mode permet de récupérer les datas en cas de crash d'une des DB.
 -   C'est une distribution IMMUABLE
 -   Cela permet de restituer des données perdues (car c'est un système distribué)
 
-### Datawarehouse
-
--   Technologie regroupant les bases de données structurées provenant d'une ou plusieurs sources
-
 ### HDFS (Hadoop Distributed Files System)
 
 -   Permet de faire évoluer un cluster en plusieurs pour les traiter plus facilement
@@ -78,3 +74,9 @@ Ce mode permet de récupérer les datas en cas de crash d'une des DB.
 ### MapReduce :
 
 -   Permet de créer des applications qui s'éxecute en parallèle et traiter des grands volumes de données stockées sur les clusters
+
+### Datawarehouse
+
+-   Une **Datawarehouse** est une base de données "secondaire" **CENTRALISÉE** avec comme tables des données orientées par **sujet**.
+-   Contient par exemple, les tables : `clients_reguliers`, `clients_etrangers`
+-   On alimente ces tables via injection SQL de données provenant de la base de données de l'app et / ou de plusieurs autres sources
