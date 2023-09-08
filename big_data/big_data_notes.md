@@ -70,7 +70,7 @@ Ce mode permet de récupérer les datas en cas de crash d'une des DB.
 
 ---
 
-## Fonctionnement de HADOP
+## Fonctionnement de HADOP SPARK
 
 **_ HDFS (Hadoop Distributed Files System) _**
 
