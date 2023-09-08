@@ -60,7 +60,7 @@ Ce mode permet de récupérer les datas en cas de crash d'une des DB.
 
 ---
 
-## Fonctionnement de Apache HADOP
+## Fonctionnement de Apache HADOOP
 
 **_ HDFS (Hadoop Distributed Files System) _**
 
@@ -71,9 +71,9 @@ Ce mode permet de récupérer les datas en cas de crash d'une des DB.
 -   Permet de créer des applications qui s'éxecute en parallèle et traiter des grands volumes de données stockées sur les clusters
 -   Comporte les transformations et actions (map(), filter() ...)
 
-**_ Yarn HADOP _**
+**_ Yarn HADOOP _**
 
--   Gestionnaire de package pour HADOP (je crois)
+-   Gestionnaire de package pour HADOOP (je crois)
 
 ## Fonctionnement de Apache Spark
 
