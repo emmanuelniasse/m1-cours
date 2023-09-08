@@ -9,7 +9,7 @@
 
 -   **Vélocité / Vitesse** :
     Vitesse de traitement de l'information en temps réel.
-    Le temps réel est un **temps donné**(le traitement est réalisé en dans un temps alloué précis, ni plus ni moins !).
+    Le temps réel est un **temps donné** (le traitement est réalisé en dans un temps alloué précis, ni plus ni moins !).
 
     L'avalanche de données produites par les capteurs, les réseaux sociaux, les appareils connectés, etc.. doivent souvent être analysées en temps réel.
 
@@ -60,17 +60,7 @@ Ce mode permet de récupérer les datas en cas de crash d'une des DB.
 
 ---
 
-## Définitions
-
-### Les RDD (Resilient Distributed Dataset)
-
--   Le RDD définit la structure de stockage des données
--   C'est une distribution IMMUABLE
--   Cela permet de restituer des données perdues (car c'est un système distribué)
-
----
-
-## Fonctionnement de HADOP SPARK
+## Fonctionnement de Apache HADOP
 
 **_ HDFS (Hadoop Distributed Files System) _**
 
@@ -79,10 +69,20 @@ Ce mode permet de récupérer les datas en cas de crash d'une des DB.
 **_ MapReduce : _**
 
 -   Permet de créer des applications qui s'éxecute en parallèle et traiter des grands volumes de données stockées sur les clusters
+-   Comporte les transformations et actions
 
-**_ Yarn _**
+**_ Yarn HADOP _**
 
--   Gestionnaire de package
+-   Gestionnaire de package pour HADOP (je crois)
+
+## Fonctionnement de Apache Spark
+
+## Les RDD (Resilient Distributed Dataset)
+
+-   Le RDD définit la structure de stockage des données
+-   C'est une distribution IMMUABLE
+-   Cela permet de restituer des données perdues (car c'est un système distribué)
+-   Transformation et actions sur les données
 
 ---
 
