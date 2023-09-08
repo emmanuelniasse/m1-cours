@@ -1,15 +1,5 @@
 # BIG DATA
 
----
-
-## Avant vendredi 08/09/2023 :
-
--   Télécharger Apache Spark
--   Faire un petit projet pour voir comment ça fonctionne
--   Envoyer le projet au prof
-
----
-
 ## Qu'est ce que la BIG DATA ?
 
 ### Les composantes de la big data sont les 4 VÉRITÉS :
@@ -65,7 +55,18 @@ Ce mode permet de récupérer les datas en cas de crash d'une des DB.
     Spark lui, traite les données en temps reel ET mode batch
     Il est plus rapide que Hadoop en raison de son traitement en mémoire
 
-## Les RDD (Resilien Distributed Dataset)
+---
 
-Le RDD définit la structure de stockage des données
-Voir + sur internet psq j'ai rien compris
+-   Les RDD (Resilient Distributed Dataset)
+    Le RDD définit la structure de stockage des données
+    C'est une distribution IMMUABLE
+    Cela permet de restituer des données perdues (car c'est un système distribué)
+
+-   Datawarehouse
+    Technologie regroupant les bases de données structurées provenant d'une ou plusieurs sources
+
+-   HDFS (Hadoop Distributed Files System)
+    Permet de faire évoluer un cluster en plusieurs pour les traiter plus facilement
+
+-   MapReduce :
+    Permet de créer des applications qui s'éxecute en parallèle et traiter des grands volumes de données stockées sur les clusters
