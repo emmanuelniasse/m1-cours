@@ -47,26 +47,32 @@ Ce mode permet de récupérer les datas en cas de crash d'une des DB.
 
 ## Les frameworks populaires utilisés pour la BIG DATA
 
--   Apache Hadoop
-    Hadoop est principalement conçu pour le traitement en mode Batch.
-    Il est utilisé depuis plus longtemps, c'est le premier à avoir été découvert.
+### Apache Hadoop
 
--   Apache Spark
-    Spark lui, traite les données en temps reel ET mode batch
-    Il est plus rapide que Hadoop en raison de son traitement en mémoire
+-   Hadoop est principalement conçu pour le traitement en mode Batch.
+-   Il est utilisé depuis plus longtemps, c'est le premier à avoir été découvert.
+
+### Apache Spark
+
+-   Spark lui, traite les données en temps reel ET mode batch
+-   Il est plus rapide que Hadoop en raison de son traitement en mémoire
 
 ---
 
--   Les RDD (Resilient Distributed Dataset)
-    Le RDD définit la structure de stockage des données
-    C'est une distribution IMMUABLE
-    Cela permet de restituer des données perdues (car c'est un système distribué)
+### Les RDD (Resilient Distributed Dataset)
 
--   Datawarehouse
-    Technologie regroupant les bases de données structurées provenant d'une ou plusieurs sources
+-   Le RDD définit la structure de stockage des données
+-   C'est une distribution IMMUABLE
+-   Cela permet de restituer des données perdues (car c'est un système distribué)
 
--   HDFS (Hadoop Distributed Files System)
-    Permet de faire évoluer un cluster en plusieurs pour les traiter plus facilement
+### Datawarehouse
 
--   MapReduce :
-    Permet de créer des applications qui s'éxecute en parallèle et traiter des grands volumes de données stockées sur les clusters
+-   Technologie regroupant les bases de données structurées provenant d'une ou plusieurs sources
+
+### HDFS (Hadoop Distributed Files System)
+
+-   Permet de faire évoluer un cluster en plusieurs pour les traiter plus facilement
+
+### MapReduce :
+
+-   Permet de créer des applications qui s'éxecute en parallèle et traiter des grands volumes de données stockées sur les clusters
