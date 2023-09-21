@@ -36,10 +36,6 @@ Les étapes importantes de la planification :
 
 ## Communication de crise qui a fonctionnée
 
-..
-
-## Communication de crise qui n'a pas fonctionnée
-
 L'affaire Tylenol
 
 Bouteilles empoisonnées au cyanur
