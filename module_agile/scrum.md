@@ -27,6 +27,10 @@ nous reconnaissons davantage de valeur dans les éléments à gauche.
 
 -   Engagement de résultat :
     Garantir un résultat peu importe les moyens déployés
+    Si le résultat n'est pas présent à temps -> Pénalité
+
+-   Avenant :
+    Document complémentaire du contrat constatant une modification, une adaptation ou un complément qui y sont apportés d'un commun accord entre les deux parties
 
 -   Définition of `Done` :
     Compréhension commune du fait d'avoir "`terminer` le travail"
