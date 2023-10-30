@@ -58,7 +58,13 @@ Le chemin est dispo dans le dockerhub
 ## Docker compose
 
 -   Créer des stacks
+
     -   Permet de lancer des piles:
         En micro services, on souhaite avoir un conteneur par service (back front bdd)
         Lancer d'abord la bdd, puis le back et le front
--
+
+-   Lancer un docker-compose
+    `> docker-compose up -d`
+
+-   Couper un docker-compose
+    `> docker-compose down`
