@@ -4,9 +4,10 @@
 
 ## Détails
 
+-   `run` crée et lance
 -   `-dit` lance le container en background
 -   `-p 8080:80` correspond à l'association de mon port local au port de mon container
--   `-v "$PWD/docker-data":/usr/local/apache2/htdocs/` correspond au volume local associé à mon volume présent dans le container
+-   `-v "$PWD/docker-data":/usr/local/apache2/htdocs/` correspond au volume local associé à la racine de mon site (dans le serveur)
 -   `httpd:2.4` correspond à l'image pulled
 
 ## Pour lancer un deuxième container avec le même volume
