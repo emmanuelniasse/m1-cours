@@ -37,8 +37,28 @@ Pour changer la page d'accueil aller dans `/usr/share/nginx/html` et modifier la
 
 ## Volume
 
+Les 3 types de volumes :
+
+-   TMPFS (charge ?)
+-   Data (Editable par docker etc. Donner un nom et docker s'occupe de tout)
+-   Bind (Donner un chemin et docker fera le lien entre le volume et le conteneur)
+
+Permet :
+
+-   La persistance des données (stocker les données dans un volume qui se trouve dans la machine)
+    -   Indiquer le chemin de mon volume (où il y a mes datas) dans mon conteneur
+-   Eviter les problèmes de surchage (dédoubler les serveurs dans le cas où il y aurait trop de charge)
+
 Créer un volume en cli
 
 > `docker run -p 8082:80 -tid --name my-web-3 -v dataweb:/usr/share/nginx/html nginx`
 
 Le chemin est dispo dans le dockerhub
+
+## Docker compose
+
+-   Créer des stacks
+    -   Permet de lancer des piles:
+        En micro services, on souhaite avoir un conteneur par service (back front bdd)
+        Lancer d'abord la bdd, puis le back et le front
+-
